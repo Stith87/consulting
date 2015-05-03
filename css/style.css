@@ -1,0 +1,144 @@
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+
+.jumbotron{
+	margin-bottom: 0px;
+}
+.campaign{
+	background: url('../img/campaign.png');
+	background-size: contain;
+	min-height: 500px;
+	color: #fff;
+	text-align: center;
+	padding-top: 100px;
+
+}
+
+.campaign h1{
+	-webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: black;
+
+}
+
+.campaign .circle{
+	height: 200px;
+	border: 10px solid #fff;
+	margin: 5px;
+	padding: 25px;
+	border-radius: 50%;
+	background: #333;
+	text-align: center;
+	 color: #80ec00;
+	  -webkit-transition: all 0.4s ease-in-out;
+	  -moz-transition: all 0.4s ease-in-out;
+	  -o-transition: all 0.4s ease-in-out;
+	  -ms-transition: all 0.4s ease-in-out;
+	  transition: all 0.4s ease-in-out;
+}
+
+.campaign .circle h4{
+  position: absolute;
+  font-size: 1.2em;
+  width: 100%;
+  left: 0;
+  bottom: 40px;
+  font-weight: 300;
+}
+
+.campaign .circle:hover{
+	background: #0075ab;
+	color: #fff;
+	border: 10px solid #333;
+	box-shadow: 0px 0px 10px #ccc;
+
+}
+
+#grow{
+	text-align: center;
+	box-shadow: 0px 0px 10px #000;
+	padding-bottom: 50px;
+}
+
+#grow h1{
+	font-size: 3.0em;
+	font-weight: 200;
+	color: #444;
+
+}
+
+.details{
+	text-align: center;
+}
+
+#services{
+
+	background: #333;
+	min-height: 300px;
+	box-shadow: 0px 0px 10px #000;
+	color: #fff;
+	text-align: center;
+}
+
+#services h1,h2,h3,h4{
+	font-weight: 200;
+}
+
+#services .row{
+	padding: 25px;
+}
+
+#services .circle{
+	height: 200px;
+	border: 10px solid #fff;
+	margin: 5px;
+	padding: 25px;
+	border-radius: 50%;
+	background: #333;
+	text-align: center;
+	color: #80ec00;
+	  -webkit-transition: all 0.4s ease-in-out;
+	  -moz-transition: all 0.4s ease-in-out;
+	  -o-transition: all 0.4s ease-in-out;
+	  -ms-transition: all 0.4s ease-in-out;
+	  transition: all 0.4s ease-in-out;
+}
+
+
+#services .circle:hover{
+	background: #0075ab;
+	color: #fff;
+	border: 10px solid #333;
+	box-shadow: 0px 0px 10px #ccc;
+
+}
+
+#offer{
+	margin-top: 50px;
+	min-height: 300px;
+	padding: 25px;
+	background: #0075ab;
+	color: #fff;
+	text-align: center;
+	border: 1px solid #ccc;
+	box-shadow: 0px 0px 5px #333;
+
+}
+
+#offer h1,h2,h3,h4{
+	font-weight: 200;
+}
+
+#offer form{
+
+}
+
+@media (max-width: 970px) { 
+	.jumbotron{
+		min-height: 350px;
+	}
+
+	.circle h4{
+		font-size: 1.0em;
+	}
+}
