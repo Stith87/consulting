@@ -1,6 +1,9 @@
 body{
 	font-family: 'Open Sans', sans-serif;
 }
+h1,h2,h3,h4{
+	font-weight: 200;
+}
 
 .jumbotron{
 	margin-bottom: 0px;
@@ -113,20 +116,40 @@ body{
 
 }
 
+#offer-container{
+	background: #fff;
+	padding-bottom: 50px;
+	box-shadow: 0px 0px 10px #000;
+}
+
 #offer{
 	margin-top: 50px;
 	min-height: 300px;
 	padding: 25px;
-	background: #0075ab;
+	background: #333;
 	color: #fff;
 	text-align: center;
 	border: 1px solid #ccc;
-	box-shadow: 0px 0px 5px #333;
+	box-shadow: 0px 0px 10px #000;
+	text-align: center;
 
 }
 
 #offer h1,h2,h3,h4{
 	font-weight: 200;
+
+}
+
+#offer-heading{
+	text-align: center;
+}
+
+#offer-details{
+	padding-top: 25px;
+}
+
+#offer-details li{
+	padding: 5px;
 }
 
 #offer form{

@@ -152,10 +152,25 @@
       </div>
 
     </div>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-8 col-md-offset-2" id="offer">
+    <div class="container-fluid" id="offer-container">
+      <div class="row" >
+        <h1 id="offer-heading">Get Exclusive Access to Premium Marketing Lessons!</h1>
+        <div class="col-md-5 col-md-offset-1" id="offer-details"> 
+
+          <ul>
+            <li>Creating an SEO strategy that gets your site on the first page of Google</li>
+            <li>Using Google Analytics to optimize the effectiveness and profitability of your marketing campaigns</li>
+            <li>Leveraging the Infusionsoft API to nurture your leads more effectively</li>
+            <li>Campaign templates that are proven to increase conversions</li>
+            <div style="text-align: center; padding-top: 5px;"><a class="btn btn-primary">Get Access to Premium Content</a></div>
+          </ul>
+        </div>
+        <div class="col-md-5">
+          <img src="img/growth.png" class="img-thumbnail" style="margin-top: 25px;" /> 
+        </div>
+        <div class="col-md-12" id="offer">
           <h1>Free Infusionsoft Implementation Checklist</h1>
+          <h3>Get the most out of Infusionsoft!</h3>
           <form class="col-md-8 col-md-offset-2">
             <div class="form-group">
               <input type="text" name="first_name" placeholder="First Name" class="form-control" />
